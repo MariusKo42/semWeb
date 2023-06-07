@@ -1,0 +1,37 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+
+<http://www.hochschule-bochum.de/semanticweb/ee>
+  a owl:Ontology ;
+  dc11:date "2023-05-17"^^xsd:date ;
+  owl:imports geo: ;
+  owl:versionInfo "HSBO Erneuerbare Energien Ontologie v. 0.1"^^xsd:string ;
+  dc11:description "Ein RDF/OWL Vokabular für Erneuerbare Energieanlangen"^^xsd:string ;
+  dc11:creator "Open Geospatial Consortium"^^xsd:string .
+
+<http://www.hochschule-bochum.de/semanticweb/ee#EEAnlage>
+  a owl:Class;
+  rdfs:label "EE-Anlage"@de ;
+  rdfs:label "Renewable energy plant"@en ;
+  rdfs:subClassOf geo:Feature .
+
+<http://www.hochschule-bochum.de/semanticweb/ee#Windkraftanlage>
+  a owl:Class;
+  rdfs:label "Windkraftanlage"@de ;
+  rdfs:label "Wind power plant"@en ;
+  rdfs:subClassOf <http://www.hochschule-bochum.de/semanticweb/ee#EEAnlage> .
+
+<http://www.hochschule-bochum.de/semanticweb/ee#PVanlage>
+  a owl:Class;
+  rdfs:label "Freiflächen-Photovoltaikanlage"@de ;
+  rdfs:label "Ground-mounted photovoltaic system"@en ;
+  rdfs:subClassOf <http://www.hochschule-bochum.de/semanticweb/ee#EEAnlage> .
+
+<http://www.hochschule-bochum.de/semanticweb/ee#hatLeistung>
+  a owl:DatatypeProperty ;
+  rdfs:domain <http://www.hochschule-bochum.de/semanticweb/ee#EEAnlage> ;
+  rdfs:range xsd:double .

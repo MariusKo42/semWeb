@@ -1,0 +1,3054 @@
+@base <http://example/base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ee: <http://www.hochschule-bochum.de/semanticweb/ee#> .
+@prefix eegeom: <http://www.hochschule-bochum.de/semanticweb/eegeom#> .
+
+ee:0002 a ee:PVanlage;
+  ee:hatLeistung "357.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0002 .
+
+eegeom:0002 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((331347 5657679))"^^geo:wktLiteral .
+
+ee:0013 a ee:PVanlage;
+  ee:hatLeistung "89.82000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0013 .
+
+eegeom:0013 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((355710 5708650))"^^geo:wktLiteral .
+
+ee:0048 a ee:PVanlage;
+  ee:hatLeistung "93.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0048 .
+
+eegeom:0048 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((312267 5745322))"^^geo:wktLiteral .
+
+ee:0051 a ee:PVanlage;
+  ee:hatLeistung "35.22000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0051 .
+
+eegeom:0051 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((351492 5649748))"^^geo:wktLiteral .
+
+ee:0053 a ee:PVanlage;
+  ee:hatLeistung "63.75800000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0053 .
+
+eegeom:0053 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((389163 5652244))"^^geo:wktLiteral .
+
+ee:0054 a ee:PVanlage;
+  ee:hatLeistung "50.40000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0054 .
+
+eegeom:0054 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((389163 5652244))"^^geo:wktLiteral .
+
+ee:0061 a ee:PVanlage;
+  ee:hatLeistung "48.38000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0061 .
+
+eegeom:0061 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((352263 5663389))"^^geo:wktLiteral .
+
+ee:0067 a ee:PVanlage;
+  ee:hatLeistung "1400.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0067 .
+
+eegeom:0067 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((316376 5643582))"^^geo:wktLiteral .
+
+ee:0070 a ee:PVanlage;
+  ee:hatLeistung "320.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0070 .
+
+eegeom:0070 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((337770 5666666))"^^geo:wktLiteral .
+
+ee:0071 a ee:PVanlage;
+  ee:hatLeistung "214.52000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0071 .
+
+eegeom:0071 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((460750 5753481))"^^geo:wktLiteral .
+
+ee:0081 a ee:PVanlage;
+  ee:hatLeistung "595.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0081 .
+
+eegeom:0081 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((416936 5764201))"^^geo:wktLiteral .
+
+ee:0083 a ee:PVanlage;
+  ee:hatLeistung "830.40000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0083 .
+
+eegeom:0083 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((379763 5705028))"^^geo:wktLiteral .
+
+ee:0084 a ee:PVanlage;
+  ee:hatLeistung "222.64000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0084 .
+
+eegeom:0084 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((456689 5697903))"^^geo:wktLiteral .
+
+ee:0092 a ee:PVanlage;
+  ee:hatLeistung "73.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0092 .
+
+eegeom:0092 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((433217 5708131))"^^geo:wktLiteral .
+
+ee:0094 a ee:PVanlage;
+  ee:hatLeistung "297.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0094 .
+
+eegeom:0094 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((436314 5706441))"^^geo:wktLiteral .
+
+ee:0095 a ee:PVanlage;
+  ee:hatLeistung "994.56000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0095 .
+
+eegeom:0095 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((406213 5796435))"^^geo:wktLiteral .
+
+ee:0096 a ee:PVanlage;
+  ee:hatLeistung "196.42000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0096 .
+
+eegeom:0096 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((409324 5808903))"^^geo:wktLiteral .
+
+ee:0099 a ee:PVanlage;
+  ee:hatLeistung "98.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0099 .
+
+eegeom:0099 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((458325 5724498))"^^geo:wktLiteral .
+
+ee:0101 a ee:PVanlage;
+  ee:hatLeistung "73.30000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0101 .
+
+eegeom:0101 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((458296 5756177))"^^geo:wktLiteral .
+
+ee:0102 a ee:PVanlage;
+  ee:hatLeistung "36.70000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0102 .
+
+eegeom:0102 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((458296 5756177))"^^geo:wktLiteral .
+
+ee:0110 a ee:PVanlage;
+  ee:hatLeistung "40.33000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0110 .
+
+eegeom:0110 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((475845 5743450))"^^geo:wktLiteral .
+
+ee:0111 a ee:PVanlage;
+  ee:hatLeistung "403.20000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0111 .
+
+eegeom:0111 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((506455 5753151))"^^geo:wktLiteral .
+
+ee:0118 a ee:PVanlage;
+  ee:hatLeistung "984.76000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0118 .
+
+eegeom:0118 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((501000 5762750))"^^geo:wktLiteral .
+
+ee:0128 a ee:PVanlage;
+  ee:hatLeistung "208.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0128 .
+
+eegeom:0128 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((407060 5796715))"^^geo:wktLiteral .
+
+ee:0129 a ee:PVanlage;
+  ee:hatLeistung "43.20000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0129 .
+
+eegeom:0129 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((407060 5796715))"^^geo:wktLiteral .
+
+ee:0131 a ee:PVanlage;
+  ee:hatLeistung "39.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0131 .
+
+eegeom:0131 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((469848 5694615))"^^geo:wktLiteral .
+
+ee:0132 a ee:PVanlage;
+  ee:hatLeistung "414.96000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0132 .
+
+eegeom:0132 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((418080 5801875))"^^geo:wktLiteral .
+
+ee:0137 a ee:PVanlage;
+  ee:hatLeistung "530.10000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0137 .
+
+eegeom:0137 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((407274 5796847))"^^geo:wktLiteral .
+
+ee:0138 a ee:PVanlage;
+  ee:hatLeistung "744.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0138 .
+
+eegeom:0138 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((464792 5798691))"^^geo:wktLiteral .
+
+ee:0144 a ee:PVanlage;
+  ee:hatLeistung "2058.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0144 .
+
+eegeom:0144 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((392825 5768746))"^^geo:wktLiteral .
+
+ee:0145 a ee:PVanlage;
+  ee:hatLeistung "2372.30000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0145 .
+
+eegeom:0145 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((290373 5635490))"^^geo:wktLiteral .
+
+ee:0147 a ee:PVanlage;
+  ee:hatLeistung "600.32500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0147 .
+
+eegeom:0147 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((454226 5701573))"^^geo:wktLiteral .
+
+ee:0149 a ee:PVanlage;
+  ee:hatLeistung "548.57000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0149 .
+
+eegeom:0149 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((334325 5726167))"^^geo:wktLiteral .
+
+ee:0160 a ee:PVanlage;
+  ee:hatLeistung "53.58000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0160 .
+
+eegeom:0160 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((373863 5612535))"^^geo:wktLiteral .
+
+ee:0169 a ee:PVanlage;
+  ee:hatLeistung "1071.10000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0169 .
+
+eegeom:0169 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((500460.235 5802926.935))"^^geo:wktLiteral .
+
+ee:0170 a ee:PVanlage;
+  ee:hatLeistung "2156.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0170 .
+
+eegeom:0170 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((506095 5753220))"^^geo:wktLiteral .
+
+ee:0176 a ee:PVanlage;
+  ee:hatLeistung "81.90000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0176 .
+
+eegeom:0176 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((493450 5699210))"^^geo:wktLiteral .
+
+ee:0179 a ee:PVanlage;
+  ee:hatLeistung "407.19000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0179 .
+
+eegeom:0179 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((500477 5803008))"^^geo:wktLiteral .
+
+ee:0181 a ee:PVanlage;
+  ee:hatLeistung "595.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0181 .
+
+eegeom:0181 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((381206 5787944))"^^geo:wktLiteral .
+
+ee:0184 a ee:PVanlage;
+  ee:hatLeistung "718.36000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0184 .
+
+eegeom:0184 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((339481 5613348))"^^geo:wktLiteral .
+
+ee:0185 a ee:PVanlage;
+  ee:hatLeistung "418.14000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0185 .
+
+eegeom:0185 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((332264 5663298))"^^geo:wktLiteral .
+
+ee:0199 a ee:PVanlage;
+  ee:hatLeistung "745.04500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0199 .
+
+eegeom:0199 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((481733 5725915))"^^geo:wktLiteral .
+
+ee:0203 a ee:PVanlage;
+  ee:hatLeistung "89.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0203 .
+
+eegeom:0203 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((480445 5721344))"^^geo:wktLiteral .
+
+ee:0205 a ee:PVanlage;
+  ee:hatLeistung "2743.65000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0205 .
+
+eegeom:0205 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496104.0 5730370.595))"^^geo:wktLiteral .
+
+ee:0214 a ee:PVanlage;
+  ee:hatLeistung "1876.70000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0214 .
+
+eegeom:0214 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496461.855 5749044.762))"^^geo:wktLiteral .
+
+ee:0217 a ee:PVanlage;
+  ee:hatLeistung "602.70000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0217 .
+
+eegeom:0217 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((517591.636 5749991.521))"^^geo:wktLiteral .
+
+ee:0231 a ee:PVanlage;
+  ee:hatLeistung "1152.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0231 .
+
+eegeom:0231 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((468471.167 5812394.745))"^^geo:wktLiteral .
+
+ee:0233 a ee:PVanlage;
+  ee:hatLeistung "109.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0233 .
+
+eegeom:0233 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((385116 5702363))"^^geo:wktLiteral .
+
+ee:0235 a ee:PVanlage;
+  ee:hatLeistung "233.10000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0235 .
+
+eegeom:0235 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((426174 5791784))"^^geo:wktLiteral .
+
+ee:0236 a ee:PVanlage;
+  ee:hatLeistung "197.40000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0236 .
+
+eegeom:0236 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((426174 5791784))"^^geo:wktLiteral .
+
+ee:0237 a ee:PVanlage;
+  ee:hatLeistung "112.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0237 .
+
+eegeom:0237 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((426174 5791784))"^^geo:wktLiteral .
+
+ee:0238 a ee:PVanlage;
+  ee:hatLeistung "105.75000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0238 .
+
+eegeom:0238 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((426174 5791784))"^^geo:wktLiteral .
+
+ee:0239 a ee:PVanlage;
+  ee:hatLeistung "148.05000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0239 .
+
+eegeom:0239 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((426174 5791784))"^^geo:wktLiteral .
+
+ee:0240 a ee:PVanlage;
+  ee:hatLeistung "37.87500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0240 .
+
+eegeom:0240 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((426174 5791784))"^^geo:wktLiteral .
+
+ee:0244 a ee:PVanlage;
+  ee:hatLeistung "929.28000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0244 .
+
+eegeom:0244 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((454955 5679613))"^^geo:wktLiteral .
+
+ee:0246 a ee:PVanlage;
+  ee:hatLeistung "1458.24000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0246 .
+
+eegeom:0246 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((470306.283 5770999.693))"^^geo:wktLiteral .
+
+ee:0247 a ee:PVanlage;
+  ee:hatLeistung "2073.40000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0247 .
+
+eegeom:0247 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((466584.44 5740311.821))"^^geo:wktLiteral .
+
+ee:0252 a ee:PVanlage;
+  ee:hatLeistung "972.16000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0252 .
+
+eegeom:0252 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((470306.283 5770999.693))"^^geo:wktLiteral .
+
+ee:0266 a ee:PVanlage;
+  ee:hatLeistung "1494.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0266 .
+
+eegeom:0266 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((404605 5811733))"^^geo:wktLiteral .
+
+ee:0271 a ee:PVanlage;
+  ee:hatLeistung "244.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0271 .
+
+eegeom:0271 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((355441 5693137))"^^geo:wktLiteral .
+
+ee:0275 a ee:PVanlage;
+  ee:hatLeistung "658.92000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0275 .
+
+eegeom:0275 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((506482 5753300))"^^geo:wktLiteral .
+
+ee:0276 a ee:PVanlage;
+  ee:hatLeistung "374.40000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0276 .
+
+eegeom:0276 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((486771.594 5702430.786))"^^geo:wktLiteral .
+
+ee:0277 a ee:PVanlage;
+  ee:hatLeistung "244.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0277 .
+
+eegeom:0277 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((355207 5693290))"^^geo:wktLiteral .
+
+ee:0284 a ee:PVanlage;
+  ee:hatLeistung "2407.68000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0284 .
+
+eegeom:0284 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((399250 5713975))"^^geo:wktLiteral .
+
+ee:0285 a ee:PVanlage;
+  ee:hatLeistung "944.84000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0285 .
+
+eegeom:0285 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((491275.134 5785720.694))"^^geo:wktLiteral .
+
+ee:0383 a ee:PVanlage;
+  ee:hatLeistung "99.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0383 .
+
+eegeom:0383 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((438352.4092 5638402.3031))"^^geo:wktLiteral .
+
+ee:0336 a ee:PVanlage;
+  ee:hatLeistung "749.92500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0336 .
+
+eegeom:0336 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((501749.0255 5805532.5165))"^^geo:wktLiteral .
+
+ee:0018 a ee:PVanlage;
+  ee:hatLeistung "66.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0018 .
+
+eegeom:0018 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((320903 5739658))"^^geo:wktLiteral .
+
+ee:0042 a ee:PVanlage;
+  ee:hatLeistung "44.10000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0042 .
+
+eegeom:0042 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((460619.471 5743073.617))"^^geo:wktLiteral .
+
+ee:0055 a ee:PVanlage;
+  ee:hatLeistung "526.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0055 .
+
+eegeom:0055 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((337825 5666822))"^^geo:wktLiteral .
+
+ee:0058 a ee:PVanlage;
+  ee:hatLeistung "1206.40000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0058 .
+
+eegeom:0058 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((392500 5751330))"^^geo:wktLiteral .
+
+ee:0065 a ee:PVanlage;
+  ee:hatLeistung "1490.40000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0065 .
+
+eegeom:0065 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((382150 5745409))"^^geo:wktLiteral .
+
+ee:0066 a ee:PVanlage;
+  ee:hatLeistung "243.20000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0066 .
+
+eegeom:0066 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((312267 5745322))"^^geo:wktLiteral .
+
+ee:0075 a ee:PVanlage;
+  ee:hatLeistung "3422.10000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0075 .
+
+eegeom:0075 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((368977 5630000))"^^geo:wktLiteral .
+
+ee:0085 a ee:PVanlage;
+  ee:hatLeistung "195.74000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0085 .
+
+eegeom:0085 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((349852 5767437))"^^geo:wktLiteral .
+
+ee:0087 a ee:PVanlage;
+  ee:hatLeistung "1626.47500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0087 .
+
+eegeom:0087 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((309298 5731209))"^^geo:wktLiteral .
+
+ee:0089 a ee:PVanlage;
+  ee:hatLeistung "2026.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0089 .
+
+eegeom:0089 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((307210 5719171))"^^geo:wktLiteral .
+
+ee:0093 a ee:PVanlage;
+  ee:hatLeistung "285.95000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0093 .
+
+eegeom:0093 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((466565 5672363))"^^geo:wktLiteral .
+
+ee:0108 a ee:PVanlage;
+  ee:hatLeistung "48.96000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0108 .
+
+eegeom:0108 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((474220 5741135))"^^geo:wktLiteral .
+
+ee:0119 a ee:PVanlage;
+  ee:hatLeistung "1061.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0119 .
+
+eegeom:0119 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((500800 5762700))"^^geo:wktLiteral .
+
+ee:0120 a ee:PVanlage;
+  ee:hatLeistung "46.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0120 .
+
+eegeom:0120 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((478138 5751086))"^^geo:wktLiteral .
+
+ee:0122 a ee:PVanlage;
+  ee:hatLeistung "1261.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0122 .
+
+eegeom:0122 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((500800 5762700))"^^geo:wktLiteral .
+
+ee:0123 a ee:PVanlage;
+  ee:hatLeistung "2004.48000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0123 .
+
+eegeom:0123 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((342907 5684347))"^^geo:wktLiteral .
+
+ee:0126 a ee:PVanlage;
+  ee:hatLeistung "1445.84000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0126 .
+
+eegeom:0126 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((469239 5712355))"^^geo:wktLiteral .
+
+ee:0135 a ee:PVanlage;
+  ee:hatLeistung "702.24000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0135 .
+
+eegeom:0135 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((453289 5711327))"^^geo:wktLiteral .
+
+ee:0136 a ee:PVanlage;
+  ee:hatLeistung "740.25000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0136 .
+
+eegeom:0136 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((464432 5798725))"^^geo:wktLiteral .
+
+ee:0139 a ee:PVanlage;
+  ee:hatLeistung "965.30000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0139 .
+
+eegeom:0139 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((464562 5798680))"^^geo:wktLiteral .
+
+ee:0140 a ee:PVanlage;
+  ee:hatLeistung "1313.20000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0140 .
+
+eegeom:0140 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((464647 5798708))"^^geo:wktLiteral .
+
+ee:0141 a ee:PVanlage;
+  ee:hatLeistung "2109.36000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0141 .
+
+eegeom:0141 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((438907 5707360))"^^geo:wktLiteral .
+
+ee:0148 a ee:PVanlage;
+  ee:hatLeistung "10455.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0148 .
+
+eegeom:0148 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((294989 5642143))"^^geo:wktLiteral .
+
+ee:0150 a ee:PVanlage;
+  ee:hatLeistung "3815.46000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0150 .
+
+eegeom:0150 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((312722 5635890))"^^geo:wktLiteral .
+
+ee:0153 a ee:PVanlage;
+  ee:hatLeistung "1142.25000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0153 .
+
+eegeom:0153 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((407060 5762924))"^^geo:wktLiteral .
+
+ee:0158 a ee:PVanlage;
+  ee:hatLeistung "3528.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0158 .
+
+eegeom:0158 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((303562 5631726))"^^geo:wktLiteral .
+
+ee:0167 a ee:PVanlage;
+  ee:hatLeistung "1596.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0167 .
+
+eegeom:0167 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((503312 5763862))"^^geo:wktLiteral .
+
+ee:0171 a ee:PVanlage;
+  ee:hatLeistung "1164.15000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0171 .
+
+eegeom:0171 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((505169 5729701))"^^geo:wktLiteral .
+
+ee:0173 a ee:PVanlage;
+  ee:hatLeistung "639.90500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0173 .
+
+eegeom:0173 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((439132 5707038))"^^geo:wktLiteral .
+
+ee:0174 a ee:PVanlage;
+  ee:hatLeistung "862.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0174 .
+
+eegeom:0174 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((486947 5716163))"^^geo:wktLiteral .
+
+ee:0175 a ee:PVanlage;
+  ee:hatLeistung "1123.20000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0175 .
+
+eegeom:0175 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((453436 5714304))"^^geo:wktLiteral .
+
+ee:0177 a ee:PVanlage;
+  ee:hatLeistung "443.52000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0177 .
+
+eegeom:0177 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((378544.234 5771736.227))"^^geo:wktLiteral .
+
+ee:0180 a ee:PVanlage;
+  ee:hatLeistung "164.16000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0180 .
+
+eegeom:0180 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((479243 5672681))"^^geo:wktLiteral .
+
+ee:0182 a ee:PVanlage;
+  ee:hatLeistung "453.44000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0182 .
+
+eegeom:0182 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((486560 5702265))"^^geo:wktLiteral .
+
+ee:0189 a ee:PVanlage;
+  ee:hatLeistung "914.16000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0189 .
+
+eegeom:0189 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((480090 5758613))"^^geo:wktLiteral .
+
+ee:0193 a ee:PVanlage;
+  ee:hatLeistung "1297.06000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0193 .
+
+eegeom:0193 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((511806 5728323))"^^geo:wktLiteral .
+
+ee:0200 a ee:PVanlage;
+  ee:hatLeistung "499.68000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0200 .
+
+eegeom:0200 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((508964 5740218))"^^geo:wktLiteral .
+
+ee:0201 a ee:PVanlage;
+  ee:hatLeistung "1241.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0201 .
+
+eegeom:0201 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496730 5747870))"^^geo:wktLiteral .
+
+ee:0208 a ee:PVanlage;
+  ee:hatLeistung "3193.25000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0208 .
+
+eegeom:0208 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((426003 5698211))"^^geo:wktLiteral .
+
+ee:0212 a ee:PVanlage;
+  ee:hatLeistung "165.24000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0212 .
+
+eegeom:0212 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496396 5731289))"^^geo:wktLiteral .
+
+ee:0218 a ee:PVanlage;
+  ee:hatLeistung "124.18500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0218 .
+
+eegeom:0218 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496281 5730752))"^^geo:wktLiteral .
+
+ee:0227 a ee:PVanlage;
+  ee:hatLeistung "1234.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0227 .
+
+eegeom:0227 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((445305 5689710))"^^geo:wktLiteral .
+
+ee:0230 a ee:PVanlage;
+  ee:hatLeistung "1548.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0230 .
+
+eegeom:0230 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((461072 5703236))"^^geo:wktLiteral .
+
+ee:0241 a ee:PVanlage;
+  ee:hatLeistung "698.82000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0241 .
+
+eegeom:0241 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((381213 5787891))"^^geo:wktLiteral .
+
+ee:0243 a ee:PVanlage;
+  ee:hatLeistung "627.20000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0243 .
+
+eegeom:0243 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((465472 5799096))"^^geo:wktLiteral .
+
+ee:0245 a ee:PVanlage;
+  ee:hatLeistung "2001.65000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0245 .
+
+eegeom:0245 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((469694 5772539))"^^geo:wktLiteral .
+
+ee:0253 a ee:PVanlage;
+  ee:hatLeistung "1034.88000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0253 .
+
+eegeom:0253 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((467403 5721457))"^^geo:wktLiteral .
+
+ee:0254 a ee:PVanlage;
+  ee:hatLeistung "430.56000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0254 .
+
+eegeom:0254 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((332264 5663298))"^^geo:wktLiteral .
+
+ee:0262 a ee:PVanlage;
+  ee:hatLeistung "490.36000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0262 .
+
+eegeom:0262 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((517366 5717643))"^^geo:wktLiteral .
+
+ee:0264 a ee:PVanlage;
+  ee:hatLeistung "1421.51500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0264 .
+
+eegeom:0264 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((499592 5765193))"^^geo:wktLiteral .
+
+ee:0265 a ee:PVanlage;
+  ee:hatLeistung "655.61500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0265 .
+
+eegeom:0265 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((499627 5765342))"^^geo:wktLiteral .
+
+ee:0267 a ee:PVanlage;
+  ee:hatLeistung "3788.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0267 .
+
+eegeom:0267 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((447191 5690004))"^^geo:wktLiteral .
+
+ee:0272 a ee:PVanlage;
+  ee:hatLeistung "992.64000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0272 .
+
+eegeom:0272 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((404605 5811733))"^^geo:wktLiteral .
+
+ee:0280 a ee:PVanlage;
+  ee:hatLeistung "269.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0280 .
+
+eegeom:0280 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496246 5730867))"^^geo:wktLiteral .
+
+ee:0282 a ee:PVanlage;
+  ee:hatLeistung "992.68000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0282 .
+
+eegeom:0282 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((362221 5731772))"^^geo:wktLiteral .
+
+ee:0286 a ee:PVanlage;
+  ee:hatLeistung "748.44000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0286 .
+
+eegeom:0286 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((313527 5662775))"^^geo:wktLiteral .
+
+ee:0293 a ee:PVanlage;
+  ee:hatLeistung "3784.99500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0293 .
+
+eegeom:0293 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((295167.1793 5641649.3308))"^^geo:wktLiteral .
+
+ee:0296 a ee:PVanlage;
+  ee:hatLeistung "3520.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0296 .
+
+eegeom:0296 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((462049.6778 5752072.9708))"^^geo:wktLiteral .
+
+ee:0300 a ee:PVanlage;
+  ee:hatLeistung "2054.40000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0300 .
+
+eegeom:0300 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((329239.4885 5637504.5508))"^^geo:wktLiteral .
+
+ee:0302 a ee:PVanlage;
+  ee:hatLeistung "69.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0302 .
+
+eegeom:0302 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((420196.0893 5704700.9936))"^^geo:wktLiteral .
+
+ee:0303 a ee:PVanlage;
+  ee:hatLeistung "143.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0303 .
+
+eegeom:0303 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((451008.7394 5706418.5186))"^^geo:wktLiteral .
+
+ee:0304 a ee:PVanlage;
+  ee:hatLeistung "748.44000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0304 .
+
+eegeom:0304 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((355088.9606 5709060.339))"^^geo:wktLiteral .
+
+ee:0305 a ee:PVanlage;
+  ee:hatLeistung "184.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0305 .
+
+eegeom:0305 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((470271.6188 5709840.8997))"^^geo:wktLiteral .
+
+ee:0307 a ee:PVanlage;
+  ee:hatLeistung "777.63000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0307 .
+
+eegeom:0307 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((454425.3103 5721186.0389))"^^geo:wktLiteral .
+
+ee:0309 a ee:PVanlage;
+  ee:hatLeistung "746.46000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0309 .
+
+eegeom:0309 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((380068.4777 5741556.0912))"^^geo:wktLiteral .
+
+ee:0313 a ee:PVanlage;
+  ee:hatLeistung "747.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0313 .
+
+eegeom:0313 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((290267.2929 5635507.3772))"^^geo:wktLiteral .
+
+ee:0314 a ee:PVanlage;
+  ee:hatLeistung "1259.65000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0314 .
+
+eegeom:0314 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((290267.2929 5635507.3772))"^^geo:wktLiteral .
+
+ee:0315 a ee:PVanlage;
+  ee:hatLeistung "699.66000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0315 .
+
+eegeom:0315 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((301987.8277 5638871.526))"^^geo:wktLiteral .
+
+ee:0320 a ee:PVanlage;
+  ee:hatLeistung "315.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0320 .
+
+eegeom:0320 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496416.2571 5747692.6368))"^^geo:wktLiteral .
+
+ee:0321 a ee:PVanlage;
+  ee:hatLeistung "335.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0321 .
+
+eegeom:0321 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((490576.4444 5754898.2274))"^^geo:wktLiteral .
+
+ee:0326 a ee:PVanlage;
+  ee:hatLeistung "1999.20000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0326 .
+
+eegeom:0326 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((313069.6182 5682761.1315))"^^geo:wktLiteral .
+
+ee:0328 a ee:PVanlage;
+  ee:hatLeistung "99.45000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0328 .
+
+eegeom:0328 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((370451.4094 5698328.9196))"^^geo:wktLiteral .
+
+ee:0209 a ee:PVanlage;
+  ee:hatLeistung "200.07000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0209 .
+
+eegeom:0209 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496241.878 5730359.8479))"^^geo:wktLiteral .
+
+ee:0331 a ee:PVanlage;
+  ee:hatLeistung "748.44000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0331 .
+
+eegeom:0331 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((449324.2077 5768899.8863))"^^geo:wktLiteral .
+
+ee:0356 a ee:PVanlage;
+  ee:hatLeistung "583.74000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0356 .
+
+eegeom:0356 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((313493.2293 5662696.5213))"^^geo:wktLiteral .
+
+ee:0348 a ee:PVanlage;
+  ee:hatLeistung "3044.10000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0348 .
+
+eegeom:0348 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((335822.4986 5701008.5634))"^^geo:wktLiteral .
+
+ee:0347 a ee:PVanlage;
+  ee:hatLeistung "514.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0347 .
+
+eegeom:0347 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((427425.8117 5705749.8742))"^^geo:wktLiteral .
+
+ee:0338 a ee:PVanlage;
+  ee:hatLeistung "749.84000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0338 .
+
+eegeom:0338 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((392716.232 5769197.7686))"^^geo:wktLiteral .
+
+ee:0332 a ee:PVanlage;
+  ee:hatLeistung "749.67000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0332 .
+
+eegeom:0332 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((454689.379 5706066.1558))"^^geo:wktLiteral .
+
+ee:0351 a ee:PVanlage;
+  ee:hatLeistung "746.24000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0351 .
+
+eegeom:0351 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((304513.0563 5630044.1587))"^^geo:wktLiteral .
+
+ee:0210 a ee:PVanlage;
+  ee:hatLeistung "648.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0210 .
+
+eegeom:0210 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((303209.0249 5630749.6339))"^^geo:wktLiteral .
+
+ee:0360 a ee:PVanlage;
+  ee:hatLeistung "110.89500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0360 .
+
+eegeom:0360 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((421659.2117 5688430.3927))"^^geo:wktLiteral .
+
+ee:0359 a ee:PVanlage;
+  ee:hatLeistung "175.95000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0359 .
+
+eegeom:0359 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((454703.3296 5689464.5311))"^^geo:wktLiteral .
+
+ee:0124 a ee:PVanlage;
+  ee:hatLeistung "194.92000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0124 .
+
+eegeom:0124 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((385122.7215 5702362.3207))"^^geo:wktLiteral .
+
+ee:0283 a ee:PVanlage;
+  ee:hatLeistung "499.20000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0283 .
+
+eegeom:0283 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((517436.5853 5717826.574))"^^geo:wktLiteral .
+
+ee:0346 a ee:PVanlage;
+  ee:hatLeistung "747.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0346 .
+
+eegeom:0346 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((466610.6599 5719891.494))"^^geo:wktLiteral .
+
+ee:0312 a ee:PVanlage;
+  ee:hatLeistung "749.99500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0312 .
+
+eegeom:0312 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496138.9751 5773977.9493))"^^geo:wktLiteral .
+
+ee:0362 a ee:PVanlage;
+  ee:hatLeistung "689.04000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0362 .
+
+eegeom:0362 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((389594.1419 5776229.5729))"^^geo:wktLiteral .
+
+ee:0352 a ee:PVanlage;
+  ee:hatLeistung "749.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0352 .
+
+eegeom:0352 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((407055.5838 5796498.6965))"^^geo:wktLiteral .
+
+ee:0354 a ee:PVanlage;
+  ee:hatLeistung "749.84000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0354 .
+
+eegeom:0354 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((467666.0014 5721725.4342))"^^geo:wktLiteral .
+
+ee:0269 a ee:PVanlage;
+  ee:hatLeistung "3010.56000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0269 .
+
+eegeom:0269 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((347513.7379 5634973.5077))"^^geo:wktLiteral .
+
+ee:0098 a ee:PVanlage;
+  ee:hatLeistung "379.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0098 .
+
+eegeom:0098 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((468724.366 5812508.4666))"^^geo:wktLiteral .
+
+ee:0371 a ee:PVanlage;
+  ee:hatLeistung "37.44000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0371 .
+
+eegeom:0371 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((477783.9898 5707416.6329))"^^geo:wktLiteral .
+
+ee:0125 a ee:PVanlage;
+  ee:hatLeistung "2802.14000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0125 .
+
+eegeom:0125 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((380311.4663 5761192.7683))"^^geo:wktLiteral .
+
+ee:0366 a ee:PVanlage;
+  ee:hatLeistung "94.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0366 .
+
+eegeom:0366 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((418583.0969 5683605.8504))"^^geo:wktLiteral .
+
+ee:0365 a ee:PVanlage;
+  ee:hatLeistung "254.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0365 .
+
+eegeom:0365 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((432012.9746 5645688.6367))"^^geo:wktLiteral .
+
+ee:0364 a ee:PVanlage;
+  ee:hatLeistung "749.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0364 .
+
+eegeom:0364 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((465211.275 5716237.3461))"^^geo:wktLiteral .
+
+ee:0261 a ee:PVanlage;
+  ee:hatLeistung "553.35000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0261 .
+
+eegeom:0261 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((455164.5158 5810039.074))"^^geo:wktLiteral .
+
+ee:0381 a ee:PVanlage;
+  ee:hatLeistung "747.30000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0381 .
+
+eegeom:0381 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((324839.8612 5637266.6922))"^^geo:wktLiteral .
+
+ee:0211 a ee:PVanlage;
+  ee:hatLeistung "748.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0211 .
+
+eegeom:0211 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((426196.5171 5712622.1272))"^^geo:wktLiteral .
+
+ee:0377 a ee:PVanlage;
+  ee:hatLeistung "488.30000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0377 .
+
+eegeom:0377 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((445721.9034 5743832.3265))"^^geo:wktLiteral .
+
+ee:0369 a ee:PVanlage;
+  ee:hatLeistung "746.24000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0369 .
+
+eegeom:0369 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((445977.3538 5743958.3753))"^^geo:wktLiteral .
+
+ee:0343 a ee:PVanlage;
+  ee:hatLeistung "74.40000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0343 .
+
+eegeom:0343 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((458642.6069 5755481.4347))"^^geo:wktLiteral .
+
+ee:0036 a ee:PVanlage;
+  ee:hatLeistung "200.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0036 .
+
+eegeom:0036 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((428108.584 5761668.9798))"^^geo:wktLiteral .
+
+ee:0376 a ee:PVanlage;
+  ee:hatLeistung "2058.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0376 .
+
+eegeom:0376 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((392534.2127 5769667.5638))"^^geo:wktLiteral .
+
+ee:0337 a ee:PVanlage;
+  ee:hatLeistung "1643.95000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0337 .
+
+eegeom:0337 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((381662.1847 5773093.0487))"^^geo:wktLiteral .
+
+ee:0257 a ee:PVanlage;
+  ee:hatLeistung "2805.12000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0257 .
+
+eegeom:0257 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((466514.5751 5773719.2913))"^^geo:wktLiteral .
+
+ee:0374 a ee:PVanlage;
+  ee:hatLeistung "70.03000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0374 .
+
+eegeom:0374 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((418080.6166 5801876.0725))"^^geo:wktLiteral .
+
+ee:0234 a ee:PVanlage;
+  ee:hatLeistung "1104.66000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0234 .
+
+eegeom:0234 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((418080.7639 5801876.7376))"^^geo:wktLiteral .
+
+ee:0373 a ee:PVanlage;
+  ee:hatLeistung "749.91000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0373 .
+
+eegeom:0373 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((417889.9252 5801959.1278))"^^geo:wktLiteral .
+
+ee:0393 a ee:PVanlage;
+  ee:hatLeistung "66.78000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0393 .
+
+eegeom:0393 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((324903.2939 5626472.6317))"^^geo:wktLiteral .
+
+ee:0391 a ee:PVanlage;
+  ee:hatLeistung "76.36000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0391 .
+
+eegeom:0391 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((443794.0946 5678690.4723))"^^geo:wktLiteral .
+
+ee:0390 a ee:PVanlage;
+  ee:hatLeistung "52.02000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0390 .
+
+eegeom:0390 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((466449.6045 5680036.7273))"^^geo:wktLiteral .
+
+ee:0226 a ee:PVanlage;
+  ee:hatLeistung "4048.38000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0226 .
+
+eegeom:0226 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((445188.4485 5689733.9794))"^^geo:wktLiteral .
+
+ee:0388 a ee:PVanlage;
+  ee:hatLeistung "749.10000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0388 .
+
+eegeom:0388 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((420246.5124 5704873.6036))"^^geo:wktLiteral .
+
+ee:0386 a ee:PVanlage;
+  ee:hatLeistung "749.99500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0386 .
+
+eegeom:0386 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((479536.1688 5767978.9989))"^^geo:wktLiteral .
+
+ee:0385 a ee:PVanlage;
+  ee:hatLeistung "490.88000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0385 .
+
+eegeom:0385 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((480780.5661 5770465.9348))"^^geo:wktLiteral .
+
+ee:0384 a ee:PVanlage;
+  ee:hatLeistung "749.70000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0384 .
+
+eegeom:0384 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496161.0398 5773910.7522))"^^geo:wktLiteral .
+
+ee:0394 a ee:PVanlage;
+  ee:hatLeistung "749.99500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0394 .
+
+eegeom:0394 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((375464.5203 5784831.2913))"^^geo:wktLiteral .
+
+ee:0074 a ee:PVanlage;
+  ee:hatLeistung "1088.10000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0074 .
+
+eegeom:0074 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((407296.9102 5796861.2045))"^^geo:wktLiteral .
+
+ee:0395 a ee:PVanlage;
+  ee:hatLeistung "96.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0395 .
+
+eegeom:0395 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((490539.461 5715200.615))"^^geo:wktLiteral .
+
+ee:0292 a ee:PVanlage;
+  ee:hatLeistung "749.84000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0292 .
+
+eegeom:0292 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((417888.9774 5801959.4774))"^^geo:wktLiteral .
+
+ee:0396 a ee:PVanlage;
+  ee:hatLeistung "216.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0396 .
+
+eegeom:0396 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((429082.5981 5701800.2627))"^^geo:wktLiteral .
+
+ee:0399 a ee:PVanlage;
+  ee:hatLeistung "114.24000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0399 .
+
+eegeom:0399 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((412585.8824 5679269.7712))"^^geo:wktLiteral .
+
+ee:0191 a ee:PVanlage;
+  ee:hatLeistung "2162.16000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0191 .
+
+eegeom:0191 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((499626.3143 5765340.2292))"^^geo:wktLiteral .
+
+ee:0263 a ee:PVanlage;
+  ee:hatLeistung "810.75000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0263 .
+
+eegeom:0263 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((499565.1886 5765216.4423))"^^geo:wktLiteral .
+
+ee:0202 a ee:PVanlage;
+  ee:hatLeistung "774.24000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0202 .
+
+eegeom:0202 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((499156.1206 5746612.7289))"^^geo:wktLiteral .
+
+ee:0278 a ee:PVanlage;
+  ee:hatLeistung "3384.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0278 .
+
+eegeom:0278 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((443955.1957 5741816.9949))"^^geo:wktLiteral .
+
+ee:0401 a ee:PVanlage;
+  ee:hatLeistung "3592.11000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0401 .
+
+eegeom:0401 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((390249.1965 5711688.4207))"^^geo:wktLiteral .
+
+ee:0097 a ee:PVanlage;
+  ee:hatLeistung "1911.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0097 .
+
+eegeom:0097 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((410506.0794 5794420.7062))"^^geo:wktLiteral .
+
+ee:0434 a ee:PVanlage;
+  ee:hatLeistung "749.90000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0434 .
+
+eegeom:0434 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((345885.0518 5645354.5111))"^^geo:wktLiteral .
+
+ee:0428 a ee:PVanlage;
+  ee:hatLeistung "749.76000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0428 .
+
+eegeom:0428 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((501967.1609 5708107.459))"^^geo:wktLiteral .
+
+ee:0424 a ee:PVanlage;
+  ee:hatLeistung "749.70000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0424 .
+
+eegeom:0424 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((466562.3742 5716269.5072))"^^geo:wktLiteral .
+
+ee:0416 a ee:PVanlage;
+  ee:hatLeistung "749.36000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0416 .
+
+eegeom:0416 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((392538.4316 5769589.8092))"^^geo:wktLiteral .
+
+ee:0413 a ee:PVanlage;
+  ee:hatLeistung "749.70000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0413 .
+
+eegeom:0413 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((476141.111 5781457.7175))"^^geo:wktLiteral .
+
+ee:0412 a ee:PVanlage;
+  ee:hatLeistung "748.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0412 .
+
+eegeom:0412 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((487291.1616 5784092.642))"^^geo:wktLiteral .
+
+ee:0461 a ee:PVanlage;
+  ee:hatLeistung "749.89000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0461 .
+
+eegeom:0461 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((439036.7278 5707710.3966))"^^geo:wktLiteral .
+
+ee:0460 a ee:PVanlage;
+  ee:hatLeistung "96.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0460 .
+
+eegeom:0460 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((491023.2463 5715614.3329))"^^geo:wktLiteral .
+
+ee:0155 a ee:PVanlage;
+  ee:hatLeistung "3158.40000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0155 .
+
+eegeom:0155 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((325764.323 5587333.1057))"^^geo:wktLiteral .
+
+ee:0077 a ee:PVanlage;
+  ee:hatLeistung "1345.96000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0077 .
+
+eegeom:0077 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((320376.7834 5603477.7056))"^^geo:wktLiteral .
+
+ee:0273 a ee:PVanlage;
+  ee:hatLeistung "507.15000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0273 .
+
+eegeom:0273 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((320417.3679 5603546.8847))"^^geo:wktLiteral .
+
+ee:0156 a ee:PVanlage;
+  ee:hatLeistung "3769.92000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0156 .
+
+eegeom:0156 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((330112.9002 5605077.2345))"^^geo:wktLiteral .
+
+ee:0157 a ee:PVanlage;
+  ee:hatLeistung "971.04000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0157 .
+
+eegeom:0157 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((330794.4383 5605024.9557))"^^geo:wktLiteral .
+
+ee:0469 a ee:PVanlage;
+  ee:hatLeistung "58.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0469 .
+
+eegeom:0469 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((420028.6982 5662715.595))"^^geo:wktLiteral .
+
+ee:0289 a ee:PVanlage;
+  ee:hatLeistung "705.87000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0289 .
+
+eegeom:0289 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((464547.0039 5676705.0457))"^^geo:wktLiteral .
+
+ee:0471 a ee:PVanlage;
+  ee:hatLeistung "99.45000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0471 .
+
+eegeom:0471 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((409596.8477 5694987.4202))"^^geo:wktLiteral .
+
+ee:0349 a ee:PVanlage;
+  ee:hatLeistung "749.71000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0349 .
+
+eegeom:0349 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((335614.8432 5701010.9244))"^^geo:wktLiteral .
+
+ee:0274 a ee:PVanlage;
+  ee:hatLeistung "3505.92000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0274 .
+
+eegeom:0274 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((332283.6858 5704287.9584))"^^geo:wktLiteral .
+
+ee:0473 a ee:PVanlage;
+  ee:hatLeistung "83.30000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0473 .
+
+eegeom:0473 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((493980.7711 5704939.0674))"^^geo:wktLiteral .
+
+ee:0429 a ee:PVanlage;
+  ee:hatLeistung "748.72500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0429 .
+
+eegeom:0429 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((425152.4806 5705910.5463))"^^geo:wktLiteral .
+
+ee:0355 a ee:PVanlage;
+  ee:hatLeistung "749.84000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0355 .
+
+eegeom:0355 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((465115.9971 5722086.3923))"^^geo:wktLiteral .
+
+ee:0223 a ee:PVanlage;
+  ee:hatLeistung "4421.76000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0223 .
+
+eegeom:0223 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((518111.645 5723084.0619))"^^geo:wktLiteral .
+
+ee:0422 a ee:PVanlage;
+  ee:hatLeistung "749.76000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0422 .
+
+eegeom:0422 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((303123.2064 5727067.2141))"^^geo:wktLiteral .
+
+ee:0474 a ee:PVanlage;
+  ee:hatLeistung "1637.82500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0474 .
+
+eegeom:0474 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((505207.0051 5729591.1766))"^^geo:wktLiteral .
+
+ee:0194 a ee:PVanlage;
+  ee:hatLeistung "1877.79000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0194 .
+
+eegeom:0194 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((505356.2142 5729599.3405))"^^geo:wktLiteral .
+
+ee:0162 a ee:PVanlage;
+  ee:hatLeistung "3200.09000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0162 .
+
+eegeom:0162 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((505191.5865 5729604.0619))"^^geo:wktLiteral .
+
+ee:0196 a ee:PVanlage;
+  ee:hatLeistung "1796.55000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0196 .
+
+eegeom:0196 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((505043.9221 5729778.0788))"^^geo:wktLiteral .
+
+ee:0190 a ee:PVanlage;
+  ee:hatLeistung "3156.68000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0190 .
+
+eegeom:0190 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((513869.5844 5739271.7138))"^^geo:wktLiteral .
+
+ee:0195 a ee:PVanlage;
+  ee:hatLeistung "1458.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0195 .
+
+eegeom:0195 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((513955.2102 5739498.9504))"^^geo:wktLiteral .
+
+ee:0242 a ee:PVanlage;
+  ee:hatLeistung "902.58000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0242 .
+
+eegeom:0242 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((445724.8638 5743889.4669))"^^geo:wktLiteral .
+
+ee:0466 a ee:PVanlage;
+  ee:hatLeistung "514.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0466 .
+
+eegeom:0466 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((445834.6627 5743919.3141))"^^geo:wktLiteral .
+
+ee:0464 a ee:PVanlage;
+  ee:hatLeistung "96.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0464 .
+
+eegeom:0464 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((472376.4124 5753301.7655))"^^geo:wktLiteral .
+
+ee:0068 a ee:PVanlage;
+  ee:hatLeistung "148.95000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0068 .
+
+eegeom:0068 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((412434.0154 5761827.2787))"^^geo:wktLiteral .
+
+ee:0256 a ee:PVanlage;
+  ee:hatLeistung "2258.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0256 .
+
+eegeom:0256 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((470179.2593 5771605.7601))"^^geo:wktLiteral .
+
+ee:0259 a ee:PVanlage;
+  ee:hatLeistung "672.20000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0259 .
+
+eegeom:0259 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((470179.2593 5771605.7601))"^^geo:wktLiteral .
+
+ee:0198 a ee:PVanlage;
+  ee:hatLeistung "1783.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0198 .
+
+eegeom:0198 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((500858.8694 5803358.1741))"^^geo:wktLiteral .
+
+ee:0216 a ee:PVanlage;
+  ee:hatLeistung "1783.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0216 .
+
+eegeom:0216 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((500996.436 5803678.5427))"^^geo:wktLiteral .
+
+ee:0342 a ee:PVanlage;
+  ee:hatLeistung "749.92500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0342 .
+
+eegeom:0342 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((501724.6181 5805481.5643))"^^geo:wktLiteral .
+
+ee:0251 a ee:PVanlage;
+  ee:hatLeistung "1617.84000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0251 .
+
+eegeom:0251 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((526362.3155 5724545.9753))"^^geo:wktLiteral .
+
+ee:0192 a ee:PVanlage;
+  ee:hatLeistung "1532.20000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0192 .
+
+eegeom:0192 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((513733.0515 5739351.6396))"^^geo:wktLiteral .
+
+ee:0186 a ee:PVanlage;
+  ee:hatLeistung "5740.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0186 .
+
+eegeom:0186 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((405579.5721 5784655.6988))"^^geo:wktLiteral .
+
+ee:0478 a ee:PVanlage;
+  ee:hatLeistung "2851.20000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0478 .
+
+eegeom:0478 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((339964.2978 5661645.5569))"^^geo:wktLiteral .
+
+ee:0215 a ee:PVanlage;
+  ee:hatLeistung "772.84000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0215 .
+
+eegeom:0215 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((504994.0986 5729376.7562))"^^geo:wktLiteral .
+
+ee:0172 a ee:PVanlage;
+  ee:hatLeistung "1413.21000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0172 .
+
+eegeom:0172 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((513875.6583 5739508.0883))"^^geo:wktLiteral .
+
+ee:0249 a ee:PVanlage;
+  ee:hatLeistung "630.20000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0249 .
+
+eegeom:0249 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((375328.8943 5753338.4423))"^^geo:wktLiteral .
+
+ee:0166 a ee:PVanlage;
+  ee:hatLeistung "926.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0166 .
+
+eegeom:0166 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496530.5211 5730449.06))"^^geo:wktLiteral .
+
+ee:0420 a ee:PVanlage;
+  ee:hatLeistung "749.70000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0420 .
+
+eegeom:0420 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((504850.8162 5729663.5576))"^^geo:wktLiteral .
+
+ee:0270 a ee:PVanlage;
+  ee:hatLeistung "1690.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0270 .
+
+eegeom:0270 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((332434.4164 5646633.3823))"^^geo:wktLiteral .
+
+ee:0250 a ee:PVanlage;
+  ee:hatLeistung "453.74000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0250 .
+
+eegeom:0250 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((505458.2072 5746332.1032))"^^geo:wktLiteral .
+
+ee:0480 a ee:PVanlage;
+  ee:hatLeistung "404.25000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0480 .
+
+eegeom:0480 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((505384.1237 5746319.4032))"^^geo:wktLiteral .
+
+ee:0432 a ee:PVanlage;
+  ee:hatLeistung "497.47500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0432 .
+
+eegeom:0432 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((443341.7705 5689512.3344))"^^geo:wktLiteral .
+
+ee:0197 a ee:PVanlage;
+  ee:hatLeistung "213.15000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0197 .
+
+eegeom:0197 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((505043.9221 5729778.0788))"^^geo:wktLiteral .
+
+ee:0228 a ee:PVanlage;
+  ee:hatLeistung "2972.10000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0228 .
+
+eegeom:0228 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((481703.9171 5725902.7624))"^^geo:wktLiteral .
+
+ee:0232 a ee:PVanlage;
+  ee:hatLeistung "2145.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0232 .
+
+eegeom:0232 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496533.0002 5799768.8219))"^^geo:wktLiteral .
+
+ee:0483 a ee:PVanlage;
+  ee:hatLeistung "113.42000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0483 .
+
+eegeom:0483 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((501197.0428 5729358.5213))"^^geo:wktLiteral .
+
+ee:0163 a ee:PVanlage;
+  ee:hatLeistung "603.90000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0163 .
+
+eegeom:0163 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((471537.1307 5725036.5098))"^^geo:wktLiteral .
+
+ee:0487 a ee:PVanlage;
+  ee:hatLeistung "99.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0487 .
+
+eegeom:0487 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((490373.9155 5716146.8015))"^^geo:wktLiteral .
+
+ee:0183 a ee:PVanlage;
+  ee:hatLeistung "1845.09000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0183 .
+
+eegeom:0183 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((355455.1776 5611479.5361))"^^geo:wktLiteral .
+
+ee:0187 a ee:PVanlage;
+  ee:hatLeistung "1021.96000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0187 .
+
+eegeom:0187 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((485406.084 5697469.8938))"^^geo:wktLiteral .
+
+ee:0502 a ee:PVanlage;
+  ee:hatLeistung "755.82000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0502 .
+
+eegeom:0502 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((420095.3375 5704948.8371))"^^geo:wktLiteral .
+
+ee:0503 a ee:PVanlage;
+  ee:hatLeistung "187.22000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0503 .
+
+eegeom:0503 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((508799.036 5704955.1184))"^^geo:wktLiteral .
+
+ee:0504 a ee:PVanlage;
+  ee:hatLeistung "187.22000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0504 .
+
+eegeom:0504 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((508836.5448 5705022.134))"^^geo:wktLiteral .
+
+ee:0078 a ee:PVanlage;
+  ee:hatLeistung "249.48000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0078 .
+
+eegeom:0078 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((356101.9996 5708697.2666))"^^geo:wktLiteral .
+
+ee:0425 a ee:PVanlage;
+  ee:hatLeistung "673.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0425 .
+
+eegeom:0425 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((411947.117 5709444.223))"^^geo:wktLiteral .
+
+ee:0188 a ee:PVanlage;
+  ee:hatLeistung "2534.40000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0188 .
+
+eegeom:0188 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((468193.0655 5712236.0107))"^^geo:wktLiteral .
+
+ee:0505 a ee:PVanlage;
+  ee:hatLeistung "749.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0505 .
+
+eegeom:0505 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((464748.6396 5716169.8096))"^^geo:wktLiteral .
+
+ee:0423 a ee:PVanlage;
+  ee:hatLeistung "749.76000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0423 .
+
+eegeom:0423 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((310117.0007 5716772.0751))"^^geo:wktLiteral .
+
+ee:0151 a ee:PVanlage;
+  ee:hatLeistung "14074.37000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0151 .
+
+eegeom:0151 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((302716.391 5720952.2904))"^^geo:wktLiteral .
+
+ee:0421 a ee:PVanlage;
+  ee:hatLeistung "749.76000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0421 .
+
+eegeom:0421 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((502616.664 5727655.6538))"^^geo:wktLiteral .
+
+ee:0213 a ee:PVanlage;
+  ee:hatLeistung "1223.20000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0213 .
+
+eegeom:0213 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((505029.2433 5729257.8997))"^^geo:wktLiteral .
+
+ee:0268 a ee:PVanlage;
+  ee:hatLeistung "998.40000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0268 .
+
+eegeom:0268 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((467168.2948 5740924.3748))"^^geo:wktLiteral .
+
+ee:0508 a ee:PVanlage;
+  ee:hatLeistung "749.36000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0508 .
+
+eegeom:0508 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((343421.3306 5744287.8353))"^^geo:wktLiteral .
+
+ee:0082 a ee:PVanlage;
+  ee:hatLeistung "499.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0082 .
+
+eegeom:0082 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((433775.7696 5744909.3252))"^^geo:wktLiteral .
+
+ee:0509 a ee:PVanlage;
+  ee:hatLeistung "749.76000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0509 .
+
+eegeom:0509 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((346855.0853 5745062.3108))"^^geo:wktLiteral .
+
+ee:0511 a ee:PVanlage;
+  ee:hatLeistung "98.70000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0511 .
+
+eegeom:0511 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((373467.5204 5760353.8055))"^^geo:wktLiteral .
+
+ee:0414 a ee:PVanlage;
+  ee:hatLeistung "3963.96000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0414 .
+
+eegeom:0414 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((381898.1283 5773083.4335))"^^geo:wktLiteral .
+
+ee:0127 a ee:PVanlage;
+  ee:hatLeistung "1046.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0127 .
+
+eegeom:0127 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((464341.57 5798737.641))"^^geo:wktLiteral .
+
+ee:0207 a ee:PVanlage;
+  ee:hatLeistung "1468.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0207 .
+
+eegeom:0207 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((470807.8065 5806078.4242))"^^geo:wktLiteral .
+
+ee:0260 a ee:PVanlage;
+  ee:hatLeistung "1497.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0260 .
+
+eegeom:0260 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((475909.9925 5809477.3235))"^^geo:wktLiteral .
+
+ee:0134 a ee:PVanlage;
+  ee:hatLeistung "1635.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0134 .
+
+eegeom:0134 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((475836.2058 5809624.6249))"^^geo:wktLiteral .
+
+ee:0133 a ee:PVanlage;
+  ee:hatLeistung "2122.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0133 .
+
+eegeom:0133 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((475826.0554 5809799.9785))"^^geo:wktLiteral .
+
+ee:0435 a ee:PVanlage;
+  ee:hatLeistung "749.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0435 .
+
+eegeom:0435 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((319945.0945 5625310.5989))"^^geo:wktLiteral .
+
+ee:0164 a ee:PVanlage;
+  ee:hatLeistung "86.58000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0164 .
+
+eegeom:0164 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((477479.6957 5735584.1427))"^^geo:wktLiteral .
+
+ee:0341 a ee:PVanlage;
+  ee:hatLeistung "748.44000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0341 .
+
+eegeom:0341 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((381362.7644 5772981.4521))"^^geo:wktLiteral .
+
+ee:0073 a ee:PVanlage;
+  ee:hatLeistung "1029.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0073 .
+
+eegeom:0073 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((407224.4172 5796846.2117))"^^geo:wktLiteral .
+
+ee:0427 a ee:PVanlage;
+  ee:hatLeistung "700.15000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0427 .
+
+eegeom:0427 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((417380.0416 5709202.4778))"^^geo:wktLiteral .
+
+ee:0105 a ee:PVanlage;
+  ee:hatLeistung "30.82000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0105 .
+
+eegeom:0105 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((470845.002 5724703.485))"^^geo:wktLiteral .
+
+ee:0165 a ee:PVanlage;
+  ee:hatLeistung "89.76000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0165 .
+
+eegeom:0165 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((471539.7642 5724976.2139))"^^geo:wktLiteral .
+
+ee:0086 a ee:PVanlage;
+  ee:hatLeistung "604.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0086 .
+
+eegeom:0086 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((352620.3207 5728332.1173))"^^geo:wktLiteral .
+
+ee:0206 a ee:PVanlage;
+  ee:hatLeistung "144.96000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0206 .
+
+eegeom:0206 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((504949.1845 5729526.2996))"^^geo:wktLiteral .
+
+ee:0519 a ee:PVanlage;
+  ee:hatLeistung "99.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0519 .
+
+eegeom:0519 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((511230.1924 5737380.6225))"^^geo:wktLiteral .
+
+ee:0168 a ee:PVanlage;
+  ee:hatLeistung "1495.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0168 .
+
+eegeom:0168 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((509579.487 5747229.6289))"^^geo:wktLiteral .
+
+ee:0146 a ee:PVanlage;
+  ee:hatLeistung "1080.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0146 .
+
+eegeom:0146 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((371651.8436 5751489.4444))"^^geo:wktLiteral .
+
+ee:0521 a ee:PVanlage;
+  ee:hatLeistung "749.99000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0521 .
+
+eegeom:0521 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((371727.7975 5751627.377))"^^geo:wktLiteral .
+
+ee:0536 a ee:PVanlage;
+  ee:hatLeistung "32.49500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0536 .
+
+eegeom:0536 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((422532.5737 5776397.3681))"^^geo:wktLiteral .
+
+ee:0229 a ee:PVanlage;
+  ee:hatLeistung "1008.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0229 .
+
+eegeom:0229 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496825.6799 5800058.8226))"^^geo:wktLiteral .
+
+ee:0279 a ee:PVanlage;
+  ee:hatLeistung "181.05000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0279 .
+
+eegeom:0279 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((448224.432 5649972.776))"^^geo:wktLiteral .
+
+ee:0290 a ee:PVanlage;
+  ee:hatLeistung "749.92500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0290 .
+
+eegeom:0290 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((466663.8118 5716273.8433))"^^geo:wktLiteral .
+
+ee:0204 a ee:PVanlage;
+  ee:hatLeistung "640.40000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0204 .
+
+eegeom:0204 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((504941.0218 5729537.4133))"^^geo:wktLiteral .
+
+ee:0543 a ee:PVanlage;
+  ee:hatLeistung "1498.69000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0543 .
+
+eegeom:0543 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((426351.5012 5732140.4243))"^^geo:wktLiteral .
+
+ee:0418 a ee:PVanlage;
+  ee:hatLeistung "551.88000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0418 .
+
+eegeom:0418 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((504062.8525 5742508.7253))"^^geo:wktLiteral .
+
+ee:0333 a ee:PVanlage;
+  ee:hatLeistung "744.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0333 .
+
+eegeom:0333 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((489425.5788 5762616.1058))"^^geo:wktLiteral .
+
+ee:0248 a ee:PVanlage;
+  ee:hatLeistung "999.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0248 .
+
+eegeom:0248 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((411200.3902 5801832.9637))"^^geo:wktLiteral .
+
+ee:0553 a ee:PVanlage;
+  ee:hatLeistung "749.62500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0553 .
+
+eegeom:0553 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((312232.2334 5660815.2382))"^^geo:wktLiteral .
+
+ee:0554 a ee:PVanlage;
+  ee:hatLeistung "1380.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0554 .
+
+eegeom:0554 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((312214.3356 5660818.7845))"^^geo:wktLiteral .
+
+ee:0558 a ee:PVanlage;
+  ee:hatLeistung "80.73000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0558 .
+
+eegeom:0558 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((442483.8567 5679000.3981))"^^geo:wktLiteral .
+
+ee:0560 a ee:PVanlage;
+  ee:hatLeistung "749.36000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0560 .
+
+eegeom:0560 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((472585.4555 5693066.3956))"^^geo:wktLiteral .
+
+ee:0583 a ee:PVanlage;
+  ee:hatLeistung "749.71000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0583 .
+
+eegeom:0583 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((426319.85 5732251.009))"^^geo:wktLiteral .
+
+ee:0561 a ee:PVanlage;
+  ee:hatLeistung "749.28000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0561 .
+
+eegeom:0561 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((400468.375 5701945.1771))"^^geo:wktLiteral .
+
+ee:0562 a ee:PVanlage;
+  ee:hatLeistung "278.64000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0562 .
+
+eegeom:0562 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((400468.375 5701945.1771))"^^geo:wktLiteral .
+
+ee:0563 a ee:PVanlage;
+  ee:hatLeistung "99.78000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0563 .
+
+eegeom:0563 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((490926.8603 5702327.9634))"^^geo:wktLiteral .
+
+ee:0565 a ee:PVanlage;
+  ee:hatLeistung "416.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0565 .
+
+eegeom:0565 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((425170.3717 5705876.1342))"^^geo:wktLiteral .
+
+ee:0567 a ee:PVanlage;
+  ee:hatLeistung "750.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0567 .
+
+eegeom:0567 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((453916.4178 5707183.6493))"^^geo:wktLiteral .
+
+ee:0569 a ee:PVanlage;
+  ee:hatLeistung "741.76000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0569 .
+
+eegeom:0569 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((465106.9373 5722036.8505))"^^geo:wktLiteral .
+
+ee:0570 a ee:PVanlage;
+  ee:hatLeistung "4349.43000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0570 .
+
+eegeom:0570 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((320654.0177 5724973.9457))"^^geo:wktLiteral .
+
+ee:0578 a ee:PVanlage;
+  ee:hatLeistung "749.83000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0578 .
+
+eegeom:0578 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((506408.7149 5768314.9051))"^^geo:wktLiteral .
+
+ee:0585 a ee:PVanlage;
+  ee:hatLeistung "3824.48000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0585 .
+
+eegeom:0585 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((495760.442 5755668.371))"^^geo:wktLiteral .
+
+ee:0586 a ee:PVanlage;
+  ee:hatLeistung "1614.79000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0586 .
+
+eegeom:0586 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((495816.005 5755646.94))"^^geo:wktLiteral .
+
+ee:0587 a ee:PVanlage;
+  ee:hatLeistung "1323.53000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0587 .
+
+eegeom:0587 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((495709.642 5755658.846))"^^geo:wktLiteral .
+
+ee:0588 a ee:PVanlage;
+  ee:hatLeistung "2985.32000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0588 .
+
+eegeom:0588 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((495760.442 5755668.371))"^^geo:wktLiteral .
+
+ee:0022 a ee:PVanlage;
+  ee:hatLeistung "15.39000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0022 .
+
+eegeom:0022 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((337394.2051 5719265.266))"^^geo:wktLiteral .
+
+ee:0443 a ee:PVanlage;
+  ee:hatLeistung "0.56000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0443 .
+
+eegeom:0443 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((363569.3634 5719105.4472))"^^geo:wktLiteral .
+
+ee:0564 a ee:PVanlage;
+  ee:hatLeistung "11.70000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0564 .
+
+eegeom:0564 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((439135.5305 5704117.2918))"^^geo:wktLiteral .
+
+ee:0318 a ee:PVanlage;
+  ee:hatLeistung "2.25000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0318 .
+
+eegeom:0318 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((309487.4783 5701081.4711))"^^geo:wktLiteral .
+
+ee:0530 a ee:PVanlage;
+  ee:hatLeistung "9.75000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0530 .
+
+eegeom:0530 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((484084.0812 5722320.4978))"^^geo:wktLiteral .
+
+ee:0454 a ee:PVanlage;
+  ee:hatLeistung "13.32000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0454 .
+
+eegeom:0454 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((334642.9391 5665880.2254))"^^geo:wktLiteral .
+
+ee:0486 a ee:PVanlage;
+  ee:hatLeistung "4.79000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0486 .
+
+eegeom:0486 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((470986.8903 5760879.8339))"^^geo:wktLiteral .
+
+ee:0524 a ee:PVanlage;
+  ee:hatLeistung "0.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0524 .
+
+eegeom:0524 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((315094.5849 5645142.7088))"^^geo:wktLiteral .
+
+ee:0481 a ee:PVanlage;
+  ee:hatLeistung "2.31000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0481 .
+
+eegeom:0481 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((370712.9498 5630793.9176))"^^geo:wktLiteral .
+
+ee:0541 a ee:PVanlage;
+  ee:hatLeistung "2.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0541 .
+
+eegeom:0541 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((372102.0519 5692497.4832))"^^geo:wktLiteral .
+
+ee:0258 a ee:PVanlage;
+  ee:hatLeistung "3.36000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0258 .
+
+eegeom:0258 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((314416.312 5736675.7003))"^^geo:wktLiteral .
+
+ee:0500 a ee:PVanlage;
+  ee:hatLeistung "5.52000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0500 .
+
+eegeom:0500 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((339731.515 5699066.9871))"^^geo:wktLiteral .
+
+ee:0426 a ee:PVanlage;
+  ee:hatLeistung "0.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0426 .
+
+eegeom:0426 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((334320.5405 5714364.1552))"^^geo:wktLiteral .
+
+ee:0438 a ee:PVanlage;
+  ee:hatLeistung "6.96000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0438 .
+
+eegeom:0438 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((466985.12 5770599.0707))"^^geo:wktLiteral .
+
+ee:0033 a ee:PVanlage;
+  ee:hatLeistung "27.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0033 .
+
+eegeom:0033 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((430703.7329 5684828.7306))"^^geo:wktLiteral .
+
+ee:0491 a ee:PVanlage;
+  ee:hatLeistung "3.70000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0491 .
+
+eegeom:0491 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((338597.4554 5650222.4687))"^^geo:wktLiteral .
+
+ee:0433 a ee:PVanlage;
+  ee:hatLeistung "19.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0433 .
+
+eegeom:0433 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((367876.3942 5686709.6324))"^^geo:wktLiteral .
+
+ee:0015 a ee:PVanlage;
+  ee:hatLeistung "10.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0015 .
+
+eegeom:0015 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((429426.825 5642018.4397))"^^geo:wktLiteral .
+
+ee:0529 a ee:PVanlage;
+  ee:hatLeistung "1.74000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0529 .
+
+eegeom:0529 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((405211.4099 5720003.4012))"^^geo:wktLiteral .
+
+ee:0299 a ee:PVanlage;
+  ee:hatLeistung "9.66000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0299 .
+
+eegeom:0299 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((366853.6382 5609853.2594))"^^geo:wktLiteral .
+
+ee:0016 a ee:PVanlage;
+  ee:hatLeistung "30.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0016 .
+
+eegeom:0016 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((358893.5981 5680356.5226))"^^geo:wktLiteral .
+
+ee:0472 a ee:PVanlage;
+  ee:hatLeistung "4.10000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0472 .
+
+eegeom:0472 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((376706.0403 5698820.1351))"^^geo:wktLiteral .
+
+ee:0076 a ee:PVanlage;
+  ee:hatLeistung "9.45000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0076 .
+
+eegeom:0076 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((323098.3894 5585618.576))"^^geo:wktLiteral .
+
+ee:0488 a ee:PVanlage;
+  ee:hatLeistung "30.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0488 .
+
+eegeom:0488 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((367276.5926 5620346.1511))"^^geo:wktLiteral .
+
+ee:0380 a ee:PVanlage;
+  ee:hatLeistung "5.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0380 .
+
+eegeom:0380 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((295971.7826 5659863.4217))"^^geo:wktLiteral .
+
+ee:0453 a ee:PVanlage;
+  ee:hatLeistung "0.41000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0453 .
+
+eegeom:0453 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((379174.2945 5671075.0904))"^^geo:wktLiteral .
+
+ee:0116 a ee:PVanlage;
+  ee:hatLeistung "1.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0116 .
+
+eegeom:0116 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((495679.1676 5731964.5994))"^^geo:wktLiteral .
+
+ee:0378 a ee:PVanlage;
+  ee:hatLeistung "3.30000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0378 .
+
+eegeom:0378 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((393094.4182 5701583.8394))"^^geo:wktLiteral .
+
+ee:0363 a ee:PVanlage;
+  ee:hatLeistung "0.62000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0363 .
+
+eegeom:0363 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((454269.0086 5726495.8629))"^^geo:wktLiteral .
+
+ee:0017 a ee:PVanlage;
+  ee:hatLeistung "12.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0017 .
+
+eegeom:0017 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((301221.657 5731080.6501))"^^geo:wktLiteral .
+
+ee:0350 a ee:PVanlage;
+  ee:hatLeistung "9.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0350 .
+
+eegeom:0350 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((407817.3534 5645893.0369))"^^geo:wktLiteral .
+
+ee:0482 a ee:PVanlage;
+  ee:hatLeistung "3.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0482 .
+
+eegeom:0482 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((428407.5665 5755704.3131))"^^geo:wktLiteral .
+
+ee:0517 a ee:PVanlage;
+  ee:hatLeistung "5.76000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0517 .
+
+eegeom:0517 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((342614.0615 5629183.2825))"^^geo:wktLiteral .
+
+ee:0552 a ee:PVanlage;
+  ee:hatLeistung "9.90000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0552 .
+
+eegeom:0552 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((398449.8058 5653313.5198))"^^geo:wktLiteral .
+
+ee:0297 a ee:PVanlage;
+  ee:hatLeistung "19.74000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0297 .
+
+eegeom:0297 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((398986.1684 5781363.2045))"^^geo:wktLiteral .
+
+ee:0456 a ee:PVanlage;
+  ee:hatLeistung "0.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0456 .
+
+eegeom:0456 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((300178.192 5666290.284))"^^geo:wktLiteral .
+
+ee:0322 a ee:PVanlage;
+  ee:hatLeistung "9.72000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0322 .
+
+eegeom:0322 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((393046.9565 5759328.7401))"^^geo:wktLiteral .
+
+ee:0485 a ee:PVanlage;
+  ee:hatLeistung "3.30000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0485 .
+
+eegeom:0485 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((384425.3114 5707495.3483))"^^geo:wktLiteral .
+
+ee:0446 a ee:PVanlage;
+  ee:hatLeistung "0.55000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0446 .
+
+eegeom:0446 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((329755.5602 5701925.4672))"^^geo:wktLiteral .
+
+ee:0556 a ee:PVanlage;
+  ee:hatLeistung "0.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0556 .
+
+eegeom:0556 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((357002.5813 5664152.1462))"^^geo:wktLiteral .
+
+ee:0442 a ee:PVanlage;
+  ee:hatLeistung "0.44000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0442 .
+
+eegeom:0442 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((367386.9657 5614615.5265))"^^geo:wktLiteral .
+
+ee:0019 a ee:PVanlage;
+  ee:hatLeistung "2.04000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0019 .
+
+eegeom:0019 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((314272.9398 5630759.1149))"^^geo:wktLiteral .
+
+ee:0514 a ee:PVanlage;
+  ee:hatLeistung "5.10000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0514 .
+
+eegeom:0514 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((369237.8383 5690940.4198))"^^geo:wktLiteral .
+
+ee:0344 a ee:PVanlage;
+  ee:hatLeistung "9.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0344 .
+
+eegeom:0344 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((311073.4376 5610271.8328))"^^geo:wktLiteral .
+
+ee:0324 a ee:PVanlage;
+  ee:hatLeistung "11.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0324 .
+
+eegeom:0324 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((451106.2063 5771802.0348))"^^geo:wktLiteral .
+
+ee:0546 a ee:PVanlage;
+  ee:hatLeistung "5.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0546 .
+
+eegeom:0546 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((354982.7663 5609076.4368))"^^geo:wktLiteral .
+
+ee:0535 a ee:PVanlage;
+  ee:hatLeistung "0.66000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0535 .
+
+eegeom:0535 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((388421.9489 5778394.3794))"^^geo:wktLiteral .
+
+ee:0295 a ee:PVanlage;
+  ee:hatLeistung "19.74000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0295 .
+
+eegeom:0295 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((397060.8884 5721100.9668))"^^geo:wktLiteral .
+
+ee:0392 a ee:PVanlage;
+  ee:hatLeistung "5.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0392 .
+
+eegeom:0392 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((388148.1441 5663489.3044))"^^geo:wktLiteral .
+
+ee:0445 a ee:PVanlage;
+  ee:hatLeistung "6.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0445 .
+
+eegeom:0445 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((349627.1195 5704610.1217))"^^geo:wktLiteral .
+
+ee:0027 a ee:PVanlage;
+  ee:hatLeistung "30.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0027 .
+
+eegeom:0027 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((368477.8836 5700783.2163))"^^geo:wktLiteral .
+
+ee:0020 a ee:PVanlage;
+  ee:hatLeistung "6.90000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0020 .
+
+eegeom:0020 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((327788.0023 5653798.3366))"^^geo:wktLiteral .
+
+ee:0527 a ee:PVanlage;
+  ee:hatLeistung "0.37000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0527 .
+
+eegeom:0527 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((387486.9936 5701969.0515))"^^geo:wktLiteral .
+
+ee:0459 a ee:PVanlage;
+  ee:hatLeistung "0.57000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0459 .
+
+eegeom:0459 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((420194.6264 5646355.8653))"^^geo:wktLiteral .
+
+ee:0361 a ee:PVanlage;
+  ee:hatLeistung "5.72000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0361 .
+
+eegeom:0361 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((466339.7612 5672811.7668))"^^geo:wktLiteral .
+
+ee:0451 a ee:PVanlage;
+  ee:hatLeistung "9.92000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0451 .
+
+eegeom:0451 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((420418.3473 5673810.677))"^^geo:wktLiteral .
+
+ee:0035 a ee:PVanlage;
+  ee:hatLeistung "10.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0035 .
+
+eegeom:0035 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((411857.1902 5792687.9671))"^^geo:wktLiteral .
+
+ee:0006 a ee:PVanlage;
+  ee:hatLeistung "7.17500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0006 .
+
+eegeom:0006 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((408422.5007 5688983.8406))"^^geo:wktLiteral .
+
+ee:0032 a ee:PVanlage;
+  ee:hatLeistung "6.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0032 .
+
+eegeom:0032 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((430800.5864 5672493.5854))"^^geo:wktLiteral .
+
+ee:0142 a ee:PVanlage;
+  ee:hatLeistung "9.88000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0142 .
+
+eegeom:0142 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((477323.7098 5672984.8705))"^^geo:wktLiteral .
+
+ee:0580 a ee:PVanlage;
+  ee:hatLeistung "1.20000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0580 .
+
+eegeom:0580 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((415295.2344 5776311.7804))"^^geo:wktLiteral .
+
+ee:0576 a ee:PVanlage;
+  ee:hatLeistung "0.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0576 .
+
+eegeom:0576 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((462504.3488 5758801.0838))"^^geo:wktLiteral .
+
+ee:0288 a ee:PVanlage;
+  ee:hatLeistung "7.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0288 .
+
+eegeom:0288 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((317237.5608 5591697.3513))"^^geo:wktLiteral .
+
+ee:0549 a ee:PVanlage;
+  ee:hatLeistung "0.30000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0549 .
+
+eegeom:0549 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((321795.5738 5630708.2572))"^^geo:wktLiteral .
+
+ee:0436 a ee:PVanlage;
+  ee:hatLeistung "3.66000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0436 .
+
+eegeom:0436 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((485615.6716 5787902.5702))"^^geo:wktLiteral .
+
+ee:0340 a ee:PVanlage;
+  ee:hatLeistung "0.55000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0340 .
+
+eegeom:0340 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((338772.7283 5686365.5834))"^^geo:wktLiteral .
+
+ee:0537 a ee:PVanlage;
+  ee:hatLeistung "0.58000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0537 .
+
+eegeom:0537 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496723.5795 5785922.7721))"^^geo:wktLiteral .
+
+ee:0409 a ee:PVanlage;
+  ee:hatLeistung "1.41000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0409 .
+
+eegeom:0409 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((463668.4878 5765830.8238))"^^geo:wktLiteral .
+
+ee:0571 a ee:PVanlage;
+  ee:hatLeistung "2.64000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0571 .
+
+eegeom:0571 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((371674.8456 5724761.414))"^^geo:wktLiteral .
+
+ee:0559 a ee:PVanlage;
+  ee:hatLeistung "0.68000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0559 .
+
+eegeom:0559 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((394179.5638 5692280.4902))"^^geo:wktLiteral .
+
+ee:0441 a ee:PVanlage;
+  ee:hatLeistung "0.32500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0441 .
+
+eegeom:0441 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((492368.9423 5751023.0345))"^^geo:wktLiteral .
+
+ee:0050 a ee:PVanlage;
+  ee:hatLeistung "2.04000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0050 .
+
+eegeom:0050 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((287579.5838 5655433.5457))"^^geo:wktLiteral .
+
+ee:0468 a ee:PVanlage;
+  ee:hatLeistung "6.48000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0468 .
+
+eegeom:0468 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((350501.3799 5649125.3336))"^^geo:wktLiteral .
+
+ee:0154 a ee:PVanlage;
+  ee:hatLeistung "4.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0154 .
+
+eegeom:0154 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((412186.1301 5753274.5443))"^^geo:wktLiteral .
+
+ee:0367 a ee:PVanlage;
+  ee:hatLeistung "0.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0367 .
+
+eegeom:0367 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((300926.4605 5615622.7331))"^^geo:wktLiteral .
+
+ee:0398 a ee:PVanlage;
+  ee:hatLeistung "3.50000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0398 .
+
+eegeom:0398 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((361937.0712 5734460.2278))"^^geo:wktLiteral .
+
+ee:0306 a ee:PVanlage;
+  ee:hatLeistung "0.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0306 .
+
+eegeom:0306 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((376114.7556 5710026.2839))"^^geo:wktLiteral .
+
+ee:0455 a ee:PVanlage;
+  ee:hatLeistung "3.24000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0455 .
+
+eegeom:0455 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((422861.1024 5663853.8355))"^^geo:wktLiteral .
+
+ee:0512 a ee:PVanlage;
+  ee:hatLeistung "3.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0512 .
+
+eegeom:0512 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((465670.9474 5787387.906))"^^geo:wktLiteral .
+
+ee:0308 a ee:PVanlage;
+  ee:hatLeistung "9.90000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0308 .
+
+eegeom:0308 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((359771.2005 5723934.2702))"^^geo:wktLiteral .
+
+ee:0557 a ee:PVanlage;
+  ee:hatLeistung "0.67500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0557 .
+
+eegeom:0557 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((365987.2968 5674008.5287))"^^geo:wktLiteral .
+
+ee:0130 a ee:PVanlage;
+  ee:hatLeistung "5.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0130 .
+
+eegeom:0130 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((452179.395 5670406.0212))"^^geo:wktLiteral .
+
+ee:0052 a ee:PVanlage;
+  ee:hatLeistung "9.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0052 .
+
+eegeom:0052 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((367400.8489 5652618.6261))"^^geo:wktLiteral .
+
+ee:0490 a ee:PVanlage;
+  ee:hatLeistung "2.10000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0490 .
+
+eegeom:0490 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((399083.814 5650695.3855))"^^geo:wktLiteral .
+
+ee:0584 a ee:PVanlage;
+  ee:hatLeistung "0.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0584 .
+
+eegeom:0584 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((374730.5933 5701567.9054))"^^geo:wktLiteral .
+
+ee:0345 a ee:PVanlage;
+  ee:hatLeistung "9.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0345 .
+
+eegeom:0345 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((390066.4222 5688559.6505))"^^geo:wktLiteral .
+
+ee:0072 a ee:PVanlage;
+  ee:hatLeistung "1.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0072 .
+
+eegeom:0072 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((394938.7584 5794053.5481))"^^geo:wktLiteral .
+
+ee:0037 a ee:PVanlage;
+  ee:hatLeistung "15.26000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0037 .
+
+eegeom:0037 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((446082.2731 5758098.8035))"^^geo:wktLiteral .
+
+ee:0577 a ee:PVanlage;
+  ee:hatLeistung "6.08000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0577 .
+
+eegeom:0577 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((480208.3711 5767568.6422))"^^geo:wktLiteral .
+
+ee:0506 a ee:PVanlage;
+  ee:hatLeistung "0.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0506 .
+
+eegeom:0506 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((434219.7346 5734842.0674))"^^geo:wktLiteral .
+
+ee:0448 a ee:PVanlage;
+  ee:hatLeistung "0.30000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0448 .
+
+eegeom:0448 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((370839.2138 5682218.4799))"^^geo:wktLiteral .
+
+ee:0534 a ee:PVanlage;
+  ee:hatLeistung "3.90000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0534 .
+
+eegeom:0534 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((485913.5246 5769690.6528))"^^geo:wktLiteral .
+
+ee:0317 a ee:PVanlage;
+  ee:hatLeistung "2.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0317 .
+
+eegeom:0317 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((355277.3199 5676034.3363))"^^geo:wktLiteral .
+
+ee:0117 a ee:PVanlage;
+  ee:hatLeistung "6.66000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0117 .
+
+eegeom:0117 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((496612.7173 5793845.7824))"^^geo:wktLiteral .
+
+ee:0358 a ee:PVanlage;
+  ee:hatLeistung "10.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0358 .
+
+eegeom:0358 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((366804.0951 5710174.452))"^^geo:wktLiteral .
+
+ee:0522 a ee:PVanlage;
+  ee:hatLeistung "4.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0522 .
+
+eegeom:0522 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((489862.0912 5791124.1082))"^^geo:wktLiteral .
+
+ee:0330 a ee:PVanlage;
+  ee:hatLeistung "0.15000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0330 .
+
+eegeom:0330 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((395882.4973 5706947.2317))"^^geo:wktLiteral .
+
+ee:0447 a ee:PVanlage;
+  ee:hatLeistung "0.34000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0447 .
+
+eegeom:0447 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((375909.5821 5693580.6242))"^^geo:wktLiteral .
+
+ee:0222 a ee:PVanlage;
+  ee:hatLeistung "29.61000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0222 .
+
+eegeom:0222 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((470296.9856 5784123.4694))"^^geo:wktLiteral .
+
+ee:0525 a ee:PVanlage;
+  ee:hatLeistung "9.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0525 .
+
+eegeom:0525 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((364099.5328 5664067.9604))"^^geo:wktLiteral .
+
+ee:0518 a ee:PVanlage;
+  ee:hatLeistung "6.30000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0518 .
+
+eegeom:0518 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((430650.92 5626561.7118))"^^geo:wktLiteral .
+
+ee:0152 a ee:PVanlage;
+  ee:hatLeistung "7.44000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0152 .
+
+eegeom:0152 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((333195.3816 5743830.6556))"^^geo:wktLiteral .
+
+ee:0449 a ee:PVanlage;
+  ee:hatLeistung "0.32500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0449 .
+
+eegeom:0449 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((326893.8434 5681929.9959))"^^geo:wktLiteral .
+
+ee:0566 a ee:PVanlage;
+  ee:hatLeistung "28.80000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0566 .
+
+eegeom:0566 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((327944.3182 5710101.4482))"^^geo:wktLiteral .
+
+ee:0003 a ee:PVanlage;
+  ee:hatLeistung "29.00000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0003 .
+
+eegeom:0003 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((319493.5902 5603646.1496))"^^geo:wktLiteral .
+
+ee:0372 a ee:PVanlage;
+  ee:hatLeistung "4.19000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0372 .
+
+eegeom:0372 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((363124.7996 5672502.6402))"^^geo:wktLiteral .
+
+ee:0550 a ee:PVanlage;
+  ee:hatLeistung "0.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0550 .
+
+eegeom:0550 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((292206.9307 5634170.9003))"^^geo:wktLiteral .
+
+ee:0568 a ee:PVanlage;
+  ee:hatLeistung "0.66000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0568 .
+
+eegeom:0568 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((389202.0053 5720344.0743))"^^geo:wktLiteral .
+
+ee:0484 a ee:PVanlage;
+  ee:hatLeistung "4.83000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0484 .
+
+eegeom:0484 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((396277.2722 5791078.5658))"^^geo:wktLiteral .
+
+ee:0528 a ee:PVanlage;
+  ee:hatLeistung "14.06000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0528 .
+
+eegeom:0528 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((318562.1395 5702809.0766))"^^geo:wktLiteral .
+
+ee:0520 a ee:PVanlage;
+  ee:hatLeistung "11.34000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0520 .
+
+eegeom:0520 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((477158.8119 5742385.8436))"^^geo:wktLiteral .
+
+ee:0034 a ee:PVanlage;
+  ee:hatLeistung "12.60000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0034 .
+
+eegeom:0034 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((442445.203 5677810.9568))"^^geo:wktLiteral .
+
+ee:0499 a ee:PVanlage;
+  ee:hatLeistung "1.53000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0499 .
+
+eegeom:0499 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((418601.9343 5696216.2932))"^^geo:wktLiteral .
+
+ee:0225 a ee:PVanlage;
+  ee:hatLeistung "21.15000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0225 .
+
+eegeom:0225 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((426960.4774 5794987.3297))"^^geo:wktLiteral .
+
+ee:0579 a ee:PVanlage;
+  ee:hatLeistung "4.26000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0579 .
+
+eegeom:0579 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((480015.5486 5776160.3901))"^^geo:wktLiteral .
+
+ee:0323 a ee:PVanlage;
+  ee:hatLeistung "11.44000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0323 .
+
+eegeom:0323 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((384260.3438 5761221.1411))"^^geo:wktLiteral .
+
+ee:0298 a ee:PVanlage;
+  ee:hatLeistung "9.92000000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0298 .
+
+eegeom:0298 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((447155.8401 5750212.783))"^^geo:wktLiteral .
+
+ee:0440 a ee:PVanlage;
+  ee:hatLeistung "0.32500000000"^^xsd:integer;
+  geo:hasGeometry eegeom:0440 .
+
+eegeom:0440 a geo:Geometry;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/25832> MULTIPOINT ((474052.6712 5759479.0134))"^^geo:wktLiteral .

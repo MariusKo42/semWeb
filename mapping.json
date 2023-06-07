@@ -1,0 +1,165 @@
+{
+    "baseIRI": "http://example/base/",
+    "namespaces": {
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "geo": "http://www.opengis.net/ont/geosparql#",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "ee": "http://www.hochschule-bochum.de/semanticweb/ee#",
+      "eegeom": "http://www.hochschule-bochum.de/semanticweb/eegeom#"
+    },
+    "subjectMappings": [
+      {
+        "propertyMappings": [
+          {
+            "property": {
+              "transformation": {
+                "expression": "ee",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "hatLeistung"
+              }
+            },
+            "values": [
+              {
+                "valueSource": {
+                  "columnName": "Leistung_k",
+                  "source": "column"
+                },
+                "valueType": {
+                  "type": "datatype_literal",
+                  "datatype": {
+                    "transformation": {
+                      "expression": "xsd",
+                      "language": "prefix"
+                    },
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "integer"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "property": {
+              "transformation": {
+                "expression": "geo",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "hasGeometry"
+              }
+            },
+            "values": [
+              {
+                "transformation": {
+                  "expression": "eegeom",
+                  "language": "prefix"
+                },
+                "valueSource": {
+                  "columnName": "LANUV_ID",
+                  "source": "column"
+                },
+                "valueType": {
+                  "propertyMappings": [],
+                  "type": "iri",
+                  "typeMappings": []
+                }
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "transformation": {
+            "expression": "ee",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "columnName": "LANUV_ID",
+            "source": "column"
+          }
+        },
+        "typeMappings": [
+          {
+            "transformation": {
+              "expression": "ee",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Windkraftanlage"
+            }
+          }
+        ]
+      },
+      {
+        "propertyMappings": [
+          {
+            "property": {
+              "transformation": {
+                "expression": "geo",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "asWKT"
+              }
+            },
+            "values": [
+              {
+                "transformation": {
+                  "expression": "\"<http://www.opengis.net/def/crs/EPSG/0/25832> \" + cells['WKT'].value",
+                  "language": "grel"
+                },
+                "valueSource": {
+                  "source": "row_index"
+                },
+                "valueType": {
+                  "type": "datatype_literal",
+                  "datatype": {
+                    "transformation": {
+                      "expression": "geo",
+                      "language": "prefix"
+                    },
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "wktLiteral"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "transformation": {
+            "expression": "eegeom",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "columnName": "LANUV_ID",
+            "source": "column"
+          }
+        },
+        "typeMappings": [
+          {
+            "transformation": {
+              "expression": "geo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Geometry"
+            }
+          }
+        ]
+      }
+    ]
+  }
